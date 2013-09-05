@@ -23,7 +23,7 @@ article, aside, figure, footer, header, hgroup, nav, section { display:block; ma
  ************************************************************/
 
 .red { color:red; }
-.red { color:blue; }
-.red { color:green; }
-.red { color:gray; }
-.red { color:black; }
+.blue { color:blue; }
+.green { color:green; }
+.gray { color:gray; }
+.black { color:black; }
