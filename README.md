@@ -4,7 +4,7 @@
 
 ## デモ
 
-`<a href="http://klutche.github.io/colorfulSelect/" target="_blank" class="link">サンプル</a>`
+<a href="http://klutche.github.io/colorfulSelect/" target="_blank" class="link">サンプル</a>
 
 IEでは選択中のセレクトボックスは青背景になるので少しわかり辛いかもしれません。
 
