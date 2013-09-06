@@ -7,7 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="clorfulSelect.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.clorfulSelect').bind('change', function(){
+		$(this).removeClass();
+		$(this).addClass($(this).val());
+	});
+});
+</script>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -15,13 +22,18 @@
 
 <body>
 
+<article>
+
 <select class="clorfulSelect">
+<option value="">選択してください</option>
 <option value="red">赤</option>
 <option value="blue">青</option>
 <option value="green">緑</option>
 <option value="gray">灰</option>
 <option value="black">黒</option>
 </select>
+
+</article>
 
 </body>
 </html>
